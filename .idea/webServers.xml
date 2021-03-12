@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="3c1fd786-e762-40c7-98b9-8e15eaf8be67" name="deploy ansible git">
+        <fileTransfer accessType="SFTP" host="170.75.170.198" port="22" sshConfigId="a160c5f1-888e-4a55-9701-fdb3e7f11307" sshConfig="centos@170.75.170.198:22 password">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+      <webServer id="5b24d8fc-0fdf-4b4d-8971-b3c9e72d07d7" name="toremote git">
+        <fileTransfer accessType="SFTP" host="170.75.170.246" port="22" sshConfigId="047dcbc3-6582-4c92-9334-b7605f7a8a5b" sshConfig="centos@170.75.170.246:22 password">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>
